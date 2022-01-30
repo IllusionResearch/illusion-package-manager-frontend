@@ -1,0 +1,9 @@
+query packages {
+  packages {
+    id
+    game
+    pattern
+    repositoryOwner
+    repositoryName
+  }
+}

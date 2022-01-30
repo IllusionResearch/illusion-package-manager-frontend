@@ -1,0 +1,5 @@
+mutation addPackage($payload: AddPackagePayloadInput!) {
+  addPackage(payload: $payload) {
+    id
+  }
+}

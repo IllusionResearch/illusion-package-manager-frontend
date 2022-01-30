@@ -1,0 +1,5 @@
+mutation editPackage($payload: EditPackagePayloadInput!) {
+  editPackage(payload: $payload) {
+    id
+  }
+}
